@@ -27,7 +27,7 @@ export default function Home() {
       <ul>
         {router.locales?.map((locale) => {
           return (
-            <li>
+            <li key={locale}>
               <Link href={router.asPath} locale={locale}>
                 <a>{locale}</a>
               </Link>

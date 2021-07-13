@@ -1,1 +1,3 @@
-return console.log("hi");
+export const test = () => {
+  console.log("bb");
+};
