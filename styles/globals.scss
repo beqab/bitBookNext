@@ -426,7 +426,7 @@ section.features {
   &_sliderItem {
     // width: 100vw;
     min-width: calc((1240px) / 2);
-    height: 50vh;
+    min-height: 50vh;
     transition: ease-in-out 0.4s;
     // opacity ease-in-out 0.4s;
     .content {
@@ -479,7 +479,7 @@ section.features {
   .slider-controllers {
     position: absolute;
     bottom: 160px;
-    left: calc(50vw + 1140px / 2);
+    left: calc(50vw + 1000px / 2);
     z-index: 3;
     svg {
       cursor: pointer;
