@@ -19,7 +19,7 @@ $color_darkBlue: #032087;
     position: absolute;
     width: 100%;
     height: 100%;
-    img {
+    svg {
       width: 100%;
       height: 100%;
       object-fit: cover;
@@ -577,5 +577,306 @@ section.features {
 
   > svg {
     transform: translateY(-3px);
+  }
+}
+
+.homeBg {
+  .a,
+  .bt {
+    fill: #fff;
+  }
+  .b {
+    clip-path: url(#a);
+  }
+  .c {
+    fill: url(#b);
+  }
+  .d,
+  .e {
+    fill: #f9f2d6;
+  }
+  .d {
+    opacity: 0.55;
+  }
+  .f {
+    fill: #f9e79d;
+  }
+  .g {
+    fill: url(#c);
+  }
+  .h,
+  .i {
+    fill: #fdac51;
+  }
+  .i {
+    opacity: 0.57;
+  }
+  .j {
+    fill: #ed8a4c;
+  }
+  .k {
+    fill: url(#d);
+  }
+  .l {
+    fill: #525921;
+  }
+  .m {
+    fill: #5c6325;
+  }
+  .n {
+    fill: #6ea698;
+  }
+  .ak,
+  .ap,
+  .be,
+  .bg,
+  .bl,
+  .bm,
+  .o,
+  .p {
+    fill: #231f20;
+  }
+  .ag,
+  .o {
+    opacity: 0.22;
+  }
+  .p {
+    opacity: 0.15;
+  }
+  .q {
+    fill: #588579;
+  }
+  .r {
+    fill: #515720;
+  }
+  .s {
+    fill: #717a2e;
+  }
+  .t {
+    fill: #ad7261;
+  }
+  .u {
+    fill: #69443b;
+  }
+  .v {
+    fill: #8b8b13;
+  }
+  .w {
+    fill: #7e8732;
+  }
+  .x {
+    fill: #9c9c15;
+  }
+  .y {
+    fill: #717a2d;
+  }
+  .z {
+    fill: #a3a316;
+  }
+  .aa {
+    fill: #666e29;
+  }
+  .ab {
+    fill: #5a6124;
+  }
+  .ac {
+    fill: #fbd4a1;
+  }
+  .ad {
+    fill: #fbc888;
+  }
+  .ae {
+    fill: url(#e);
+  }
+  .af {
+    fill: #f9f8ef;
+  }
+  .ag {
+    fill: #318cba;
+  }
+  .ah {
+    fill: #fbbf73;
+  }
+  .ai {
+    fill: #a3801e;
+  }
+  .aj {
+    fill: #5e5511;
+  }
+  .ak {
+    opacity: 0.29;
+  }
+  .al {
+    fill: #818111;
+  }
+  .am {
+    fill: #e35d67;
+  }
+  .an {
+    fill: #ff8c95;
+  }
+  .ao {
+    fill: #fcc;
+  }
+  .ap {
+    opacity: 0.19;
+  }
+  .aq {
+    fill: #6e7078;
+  }
+  .ar {
+    fill: #835353;
+  }
+  .as {
+    fill: #ab765a;
+  }
+  .at {
+    fill: #633f3f;
+  }
+  .au {
+    fill: #f18d4f;
+  }
+  .av {
+    fill: #e0c8bf;
+  }
+  .aw {
+    fill: #bd7c6a;
+  }
+  .ax {
+    fill: #fba947;
+  }
+  .ay {
+    fill: #81838c;
+  }
+  .az {
+    fill: #ffa873;
+  }
+  .ba {
+    fill: #4f5156;
+  }
+  .bb {
+    fill: #45474b;
+  }
+  .bc {
+    fill: #6a6b73;
+  }
+  .bd {
+    fill: #71727a;
+  }
+  .be {
+    opacity: 0.2;
+  }
+  .bf {
+    fill: #fbb45f;
+  }
+  .bg {
+    opacity: 0.31;
+  }
+  .bh {
+    fill: #fbbf78;
+  }
+  .bi {
+    fill: #d1d3d4;
+  }
+  .bj {
+    fill: #cb9c9b;
+  }
+  .bk {
+    fill: #b09e97;
+  }
+  .bl {
+    opacity: 0.3;
+  }
+  .bm {
+    opacity: 0.27;
+  }
+  .bn {
+    fill: #a16a5b;
+  }
+  .bo {
+    fill: #c48c7b;
+  }
+  .bp {
+    fill: #e3b1b0;
+  }
+  .bq {
+    fill: #e8b6b5;
+  }
+  .br {
+    fill: #dbabaa;
+  }
+  .bs {
+    fill: #b38988;
+  }
+  .bt {
+    opacity: 0.09;
+  }
+  .bu {
+    opacity: 0.41;
+    fill: url(#f);
+  }
+}
+
+.svgBGHome {
+  #Layer_13 {
+    animation-name: example;
+    animation-duration: 3.5s;
+    transform: translate(268px, 81px);
+  }
+
+  #bakbak {
+    position: relative;
+    transform-origin: center center;
+  }
+  #bakbak {
+    position: absolute;
+    animation-name: rotate2;
+    animation-duration: 3.5s;
+    transform: rotate(0deg);
+
+    // transform: rotate(0deg);
+    // transform-origin: 150px 100px;
+    // transform-origin: center center;
+  }
+
+  #Layer_10 {
+    position: absolute;
+    animation-name: mountine;
+    animation-duration: 3.5s;
+    // transform: translateY(-60px);
+    animation-fill-mode: forwards;
+  }
+}
+
+@keyframes example {
+  from {
+    transform: translate(668px, 81px);
+  }
+  to {
+    transform: translate(268px, 81px);
+  }
+}
+
+@keyframes rotate2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(0.2deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes mountine {
+  0% {
+    transform: translateY(60px);
+  }
+  // 50% {
+  //   transform: rotate(1deg);
+  // }
+  100% {
+    transform: translateY(0px);
   }
 }

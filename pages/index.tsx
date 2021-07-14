@@ -6,6 +6,8 @@ import useTranslation from "next-translate/useTranslation";
 import Search from "../components/search";
 import FullPageSlider from "../components/FullPageSlider/FullPageSlider";
 import ArticlesSlider from "../components/ArticlesSlider/ArticlesSlider";
+import HomeSvg from "../components/svgComponents/homeBg";
+import HomeSvg2 from "../components/svgComponents/homeBg2";
 
 const Home = () => {
   return (
@@ -93,7 +95,8 @@ const Home = () => {
           </div>
         </header>
         <div className="sectionBG">
-          <img src="./img/Mask Group 6.svg" />
+          {/* <img src="./img/Mask Group 6.svg" /> */}
+          <HomeSvg2 />
         </div>
 
         <div className="firsSection_text">
