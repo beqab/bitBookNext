@@ -120,7 +120,7 @@ const Google = () => {
               d="M16.616,8.986a9.12,9.12,0,0,0-.144-1.623H9v3.069h4.269a3.649,3.649,0,0,1-1.583,2.394v1.99H14.25a7.737,7.737,0,0,0,2.365-5.831Z"
               transform="translate(-1.067 -0.873)"
               fill="#4285f4"
-              fill-rule="evenodd"
+              fillRule="evenodd"
             />
             <path
               id="Shape-2"
@@ -128,7 +128,7 @@ const Google = () => {
               d="M8.046,17.136a7.574,7.574,0,0,0,5.25-1.922l-2.564-1.99A4.786,4.786,0,0,1,3.608,10.71H.957v2.055a7.93,7.93,0,0,0,7.089,4.37Z"
               transform="translate(-0.113 -1.27)"
               fill="#34a853"
-              fill-rule="evenodd"
+              fillRule="evenodd"
             />
             <path
               id="Shape-3"
@@ -136,7 +136,7 @@ const Google = () => {
               d="M3.494,10.028a4.69,4.69,0,0,1,0-3.015V4.958H.844a7.943,7.943,0,0,0,0,7.125l2.65-2.055Z"
               transform="translate(0 -0.588)"
               fill="#fbbc05"
-              fill-rule="evenodd"
+              fillRule="evenodd"
             />
             <path
               id="Shape-4"
@@ -144,14 +144,14 @@ const Google = () => {
               d="M8.046,3.155a4.286,4.286,0,0,1,3.033,1.186l2.275-2.275A7.624,7.624,0,0,0,8.046,0,7.93,7.93,0,0,0,.957,4.37l2.65,2.055A4.728,4.728,0,0,1,8.046,3.155Z"
               transform="translate(-0.113)"
               fill="#ea4335"
-              fill-rule="evenodd"
+              fillRule="evenodd"
             />
             <path
               id="Shape-5"
               data-name="Shape"
               d="M0,0H15.866V15.866H0Z"
               fill="none"
-              fill-rule="evenodd"
+              fillRule="evenodd"
             />
           </g>
         </g>
@@ -206,7 +206,7 @@ const Register = () => {
                   required
                   placeholder="example@bitbook.com"
                 />
-                <div className="invalid-feedback">That didn't work.</div>
+                <div className="invalid-feedback">That didn`t work.</div>
               </div>
 
               <div className="form-group">
@@ -226,7 +226,7 @@ const Register = () => {
                   placeholder="8+ characters"
                   required
                 />
-                <div className="invalid-feedback">That didn't work.</div>
+                <div className="invalid-feedback">That didn`t work.</div>
               </div>
 
               {/* <div className="form-check">

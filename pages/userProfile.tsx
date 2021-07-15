@@ -120,9 +120,9 @@ const userProfile = () => {
                         transform="translate(-6 -11.833)"
                         fill="none"
                         stroke="#032087"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                       />
                       <path
                         id="Path_1245"
@@ -131,9 +131,9 @@ const userProfile = () => {
                         transform="translate(-8.444 -4.5)"
                         fill="none"
                         stroke="#032087"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                       />
                     </g>
                   </svg>
@@ -158,9 +158,9 @@ const userProfile = () => {
                         transform="translate(-1.5 -6)"
                         fill="none"
                         stroke="#032087"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                       />
                       <path
                         id="Path_1249"
@@ -169,9 +169,9 @@ const userProfile = () => {
                         transform="translate(-1.5 -10.085)"
                         fill="none"
                         stroke="#032087"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                       />
                     </g>
                   </svg>
@@ -228,7 +228,7 @@ const userProfile = () => {
                       transform="translate(-0.313 -0.313)"
                       fill="#032087"
                       stroke="#f9fafc"
-                      stroke-width="0.5"
+                      strokeWidth="0.5"
                     />
                   </svg>
                   Booking History
@@ -298,9 +298,9 @@ const userProfile = () => {
                         transform="translate(-7.789 -7.789)"
                         fill="none"
                         stroke="#032087"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                       />
                       <path
                         id="Path_1262"
@@ -309,9 +309,9 @@ const userProfile = () => {
                         transform="translate(-1.5 -1.5)"
                         fill="none"
                         stroke="#032087"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                       />
                     </g>
                   </svg>
@@ -336,9 +336,9 @@ const userProfile = () => {
                         transform="translate(4287.138 -552.946)"
                         fill="none"
                         stroke="#032087"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                       />
                       <g
                         id="Icon_feather-arrow-right"
@@ -352,9 +352,9 @@ const userProfile = () => {
                           transform="translate(-7.5 -14.13)"
                           fill="none"
                           stroke="#032087"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
                         />
                         <path
                           id="Path_1252"
@@ -363,9 +363,9 @@ const userProfile = () => {
                           transform="translate(-12.939 -7.5)"
                           fill="none"
                           stroke="#032087"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
                         />
                       </g>
                     </g>
@@ -402,7 +402,7 @@ const userProfile = () => {
                         required
                         placeholder="example@bitbook.com"
                       />
-                      <div className="invalid-feedback">That didn't work.</div>
+                      <div className="invalid-feedback">That didn`t work.</div>
                     </div>
                   </div>
                   <div className="col-md-6">
@@ -420,7 +420,7 @@ const userProfile = () => {
                         required
                         placeholder="example@bitbook.com"
                       />
-                      <div className="invalid-feedback">That didn't work.</div>
+                      <div className="invalid-feedback">That didn`t work.</div>
                     </div>
                   </div>
                   <div className="col-12  ">
@@ -442,7 +442,7 @@ const userProfile = () => {
                       <select className="form-control">
                         <option>Georgia</option>
                       </select>
-                      <div className="invalid-feedback">That didn't work.</div>
+                      <div className="invalid-feedback">That didn`t work.</div>
                     </div>
                   </div>
                   <div className="col-md-6">
@@ -456,7 +456,7 @@ const userProfile = () => {
                       <select className="form-control">
                         <option>Tbilisi</option>
                       </select>
-                      <div className="invalid-feedback">That didn't work.</div>
+                      <div className="invalid-feedback">That didn`t work.</div>
                     </div>
                   </div>
                   <div className="col-md-6">
@@ -474,7 +474,7 @@ const userProfile = () => {
                         required
                         placeholder="Address"
                       />
-                      <div className="invalid-feedback">That didn't work.</div>
+                      <div className="invalid-feedback">That didn`t work.</div>
                     </div>
                   </div>
                   <div className="col-md-6">
@@ -492,7 +492,7 @@ const userProfile = () => {
                         required
                         placeholder="Postal Code"
                       />
-                      <div className="invalid-feedback">That didn't work.</div>
+                      <div className="invalid-feedback">That didn`t work.</div>
                     </div>
                   </div>
                   <div className="col-md-6">
@@ -510,7 +510,7 @@ const userProfile = () => {
                         required
                         placeholder="example@bitbook.com"
                       />
-                      <div className="invalid-feedback">That didn't work.</div>
+                      <div className="invalid-feedback">That didn`t work.</div>
                     </div>
                   </div>
                   <div className="col-md-6">
@@ -528,7 +528,7 @@ const userProfile = () => {
                         required
                         placeholder="phone number"
                       />
-                      <div className="invalid-feedback">That didn't work.</div>
+                      <div className="invalid-feedback">That didn`t work.</div>
                     </div>
                   </div>
                   <div className="col-12 mb-3 mt-2  ">
@@ -544,7 +544,7 @@ const userProfile = () => {
                       <select className="form-control">
                         <option>Georgia</option>
                       </select>
-                      <div className="invalid-feedback">That didn't work.</div>
+                      <div className="invalid-feedback">That didn`t work.</div>
                     </div>
                   </div>
                   <div className="col-md-6">
@@ -552,7 +552,7 @@ const userProfile = () => {
                       <select className="form-control">
                         <option>GEL</option>
                       </select>
-                      <div className="invalid-feedback">That didn't work.</div>
+                      <div className="invalid-feedback">That didn`t work.</div>
                     </div>
                   </div>
                   <div className="col-12 text-right">
