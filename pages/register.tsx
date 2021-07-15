@@ -160,7 +160,7 @@ const Google = () => {
   );
 };
 
-const Login = () => {
+const Register = () => {
   return (
     <div className="loginPage">
       <div className="loginBg">{/* <div className="left"></div> */}</div>
@@ -176,13 +176,13 @@ const Login = () => {
           </div>
           <div className="col-md-6">
             <div className="backLink text-right">
-              Not a Member?
-              <Link href="/register">
-                <a>Sign up now</a>
+              Already a Member?
+              <Link href="/login">
+                <a>Sign in now</a>
               </Link>
             </div>
             <div className="contentWrapper">
-              <h4 className="form_title">Login to BitBook</h4>
+              <h4 className="form_title">Sign up to BitBook</h4>
               <div className=" fbGoole_BtnsGroup">
                 <button className="btn btn-primary mb-3">
                   <Google /> Log in with Google
@@ -215,21 +215,21 @@ const Login = () => {
                   htmlFor="inputSuccess2"
                 >
                   <span> Password </span>
-                  <Link href="/">
+                  {/* <Link href="/">
                     <a>Forgot password?</a>
-                  </Link>
+                  </Link> */}
                 </label>
                 <input
                   type="password"
                   className="form-control text"
                   name="i2"
-                  placeholder="pass"
+                  placeholder="8+ characters"
                   required
                 />
                 <div className="invalid-feedback">That didn't work.</div>
               </div>
 
-              <div className="form-check">
+              {/* <div className="form-check">
                 <input
                   type="checkbox"
                   className="form-check-input"
@@ -238,7 +238,7 @@ const Login = () => {
                 <label className="form-check-label k" htmlFor="exampleCheck1">
                   Remember me
                 </label>
-              </div>
+              </div> */}
               <button className="btn btn-primary w-100 mt-3 py-2">
                 Log In
               </button>
@@ -250,4 +250,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Register;

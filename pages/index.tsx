@@ -10,6 +10,8 @@ import HomeSvg from "../components/svgComponents/homeBg";
 import HomeSvg2 from "../components/svgComponents/homeBg2";
 
 const Home = () => {
+  const router = useRouter();
+
   return (
     <div className="homePage">
       <section className="firsSection">
@@ -88,8 +90,22 @@ const Home = () => {
                 </span>
               </div>
               <div className="header_loginBtns d-flex">
-                <button className="btn btn-primary btn-light">Login</button>
-                <button className="btn btn-primary">Sign Up</button>
+                <button
+                  onClick={() => {
+                    router.push("/login");
+                  }}
+                  className="btn btn-primary btn-light"
+                >
+                  Login
+                </button>
+                <button
+                  onClick={() => {
+                    router.push("/register");
+                  }}
+                  className="btn btn-primary"
+                >
+                  Sign Up
+                </button>
               </div>
             </div>
           </div>
