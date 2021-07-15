@@ -37,6 +37,8 @@ $color_darkBlue: #032087;
     }
     h2 {
       font-size: 27px;
+      text-transform: uppercase;
+      font-weight: 600;
     }
     h3 {
       font-size: 16px;
@@ -189,11 +191,28 @@ section.features {
     margin-bottom: 0;
     padding-left: 0;
     li {
-      margin-bottom: 8px;
+      margin-bottom: 6px;
     }
     a {
       color: $color_darkBlue;
       font-size: 14px;
+      position: relative;
+      padding-bottom: 3px;
+      &::before {
+        position: absolute;
+        width: 0px;
+        background: $color_darkBlue;
+        content: "";
+        bottom: 0;
+        transition: 0.3s;
+      }
+      &:hover {
+        text-transform: none;
+
+        &::before {
+          width: 100%;
+        }
+      }
     }
   }
   h4 {
