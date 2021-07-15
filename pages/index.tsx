@@ -522,12 +522,12 @@ const Home = () => {
                 <div className="blur blur-hover"></div>
                 <div className="topDestinations_item_text">
                   <h5>ROME</h5>
-                  <h6>italy</h6>
+                  <h6>Italy</h6>
                 </div>
 
                 <div className="topDestinations_item_text topDestinations_item_text-hover">
                   <h5>ROME</h5>
-                  <h6>italy</h6>
+                  <h6>Italy</h6>
                   <div className="price">Starting price from 16$</div>
                 </div>
               </div>
@@ -540,11 +540,11 @@ const Home = () => {
 
                 <div className="topDestinations_item_text">
                   <h5>ROME</h5>
-                  <h6>italy</h6>
+                  <h6>Italy</h6>
                 </div>
                 <div className="topDestinations_item_text topDestinations_item_text-hover">
                   <h5>ROME</h5>
-                  <h6>italy</h6>
+                  <h6>Italy</h6>
                   <div className="price">Starting price from 16$</div>
                 </div>
               </div>
@@ -559,11 +559,11 @@ const Home = () => {
 
                 <div className="topDestinations_item_text">
                   <h5>ROME</h5>
-                  <h6>italy</h6>
+                  <h6>Italy</h6>
                 </div>
                 <div className="topDestinations_item_text topDestinations_item_text-hover">
                   <h5>ROME</h5>
-                  <h6>italy</h6>
+                  <h6>Italy</h6>
                   <div className="price">Starting price from 16$</div>
                 </div>
               </div>
@@ -576,11 +576,11 @@ const Home = () => {
 
                 <div className="topDestinations_item_text">
                   <h5>ROME</h5>
-                  <h6>italy</h6>
+                  <h6>Italy</h6>
                 </div>
                 <div className="topDestinations_item_text topDestinations_item_text-hover">
                   <h5>ROME</h5>
-                  <h6>italy</h6>
+                  <h6>Italy</h6>
                   <div className="price">Starting price from 16$</div>
                 </div>
               </div>
@@ -593,11 +593,11 @@ const Home = () => {
 
                 <div className="topDestinations_item_text">
                   <h5>ROME</h5>
-                  <h6>italy</h6>
+                  <h6>Italy</h6>
                 </div>
                 <div className="topDestinations_item_text topDestinations_item_text-hover">
                   <h5>ROME</h5>
-                  <h6>italy</h6>
+                  <h6>Italy</h6>
                   <div className="price">Starting price from 16$</div>
                 </div>
               </div>
