@@ -762,6 +762,138 @@ section.features {
   }
 }
 
+.userProfile {
+  background: #fafafa;
+  min-height: 100vh;
+  padding-bottom: 60px;
+  &_container {
+    background: #fff;
+    box-shadow: 0px 3px 15px #00000005;
+  }
+  .borderBottom {
+    border-bottom: 1px solid #7070703a;
+  }
+  .userCard {
+    img {
+      max-width: 50px;
+      border-radius: 50px;
+      margin-right: 10px;
+    }
+    .name {
+      color: #4b4c4d;
+      font-weight: 500;
+    }
+    .Link {
+      color: #0068ef;
+      font-size: 12px;
+      cursor: pointer;
+      font-weight: 500;
+    }
+    display: flex;
+    padding: 10px;
+    border: 1px solid #7070703a;
+  }
+  &_form {
+    padding: 25px;
+    h5 {
+      font-size: 15px;
+      color: #4b4c4d;
+      font-weight: 500;
+      margin-top: 10px;
+      margin-bottom: 15px;
+    }
+    label {
+      font-size: 13px;
+      color: #2d363f;
+      font-weight: 500;
+    }
+    .form-control {
+      border-color: #bdbdbd;
+    }
+  }
+  &_title {
+    padding: 14px 25px;
+    border-bottom: 1px solid #7070703a;
+    font-size: 15px;
+    color: #4b4c4d;
+    font-weight: 500;
+  }
+  .sideMenu {
+    max-width: 240px;
+    width: 100%;
+    background: #fff;
+    // box-shadow: 0 3 13 #00000005;
+    box-shadow: 0px 3px 15px #00000005;
+    &_title {
+      padding: 14px 0 14px 24px;
+      color: #4b4c4d;
+
+      font-size: 15px;
+      font-weight: 500;
+    }
+    ul {
+      padding-left: 0;
+      list-style: none;
+    }
+    li {
+      padding: 14px 0 14px 14px;
+      align-items: center;
+      display: flex;
+      font-weight: 600;
+      font-size: 12px;
+      color: $color_darkBlue;
+      border-left: 2px solid transparent;
+      transition: 0.2s;
+      cursor: pointer;
+      &.active,
+      &:hover {
+        border-left: 2px solid $color_darkBlue;
+        background: #f9fafc;
+      }
+      svg {
+        width: 34px;
+      }
+    }
+  }
+}
+
+.header_isAuth {
+  background: $color_darkBlue;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .container {
+    justify-content: space-between;
+  }
+
+  .uerMenu {
+    img {
+      width: 30px;
+      height: 30px;
+      object-fit: cover;
+      border-radius: 50px;
+      margin-right: 5px;
+    }
+  }
+
+  &_menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-bottom: 0;
+    padding-left: 0;
+    li {
+      margin: 0 10px;
+    }
+    a {
+      font-size: 14px;
+      color: #fff;
+      font-weight: 500;
+    }
+  }
+}
+
 .homeBg {
   .a,
   .bt {
