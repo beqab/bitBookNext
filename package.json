@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@types/redux": "^3.6.0",
+    "classnames": "^2.3.1",
     "next": "11.0.1",
     "next-redux-wrapper": "^7.0.2",
     "next-translate": "^1.0.7",

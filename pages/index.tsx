@@ -8,6 +8,7 @@ import FullPageSlider from "../components/FullPageSlider/FullPageSlider";
 import ArticlesSlider from "../components/ArticlesSlider/ArticlesSlider";
 import HomeSvg from "../components/svgComponents/homeBg";
 import HomeSvg2 from "../components/svgComponents/homeBg2";
+import { Button } from "../components/common/form";
 
 const Home = () => {
   const router = useRouter();
@@ -90,22 +91,22 @@ const Home = () => {
                 </span>
               </div>
               <div className="header_loginBtns d-flex">
-                <button
+                <Button
                   onClick={() => {
                     router.push("/login");
                   }}
                   className="btn btn-primary btn-light"
                 >
                   Login
-                </button>
-                <button
+                </Button>
+                <Button
                   onClick={() => {
                     router.push("/register");
                   }}
                   className="btn btn-primary"
                 >
                   Sign Up
-                </button>
+                </Button>
               </div>
             </div>
           </div>
@@ -193,7 +194,7 @@ const Home = () => {
                 </span>
               </div>
             </div>
-            <button className="btn btn-primary">Trade Now</button>
+            <Button className="btn btn-primary">Trade Now</Button>
           </div>
         </div>
       </section>
@@ -630,7 +631,7 @@ const Home = () => {
           </div>
           <div className="subscribe_form d-flex align-items-center">
             <input placeholder="Enter your email" />
-            <button className="btn btn-primary">Sing Up</button>
+            <Button className="btn btn-primary">Sing Up</Button>
           </div>
         </div>
       </div>

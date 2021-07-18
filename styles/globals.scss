@@ -712,7 +712,7 @@ section.features {
       font-size: 14px;
     }
   }
-  input.text {
+  input[type="text"] {
     border: 1px solid #bdbdbd;
     border-radius: 3px;
     height: 45px;

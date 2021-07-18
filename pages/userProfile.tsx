@@ -1,5 +1,6 @@
 import React from "react";
 import LoginHeader from "../components/headers/loginHeader";
+import { FormGroup, Input, Button } from "../components/common/form";
 
 const userProfile = () => {
   return (
@@ -299,46 +300,34 @@ const userProfile = () => {
                 </div>
                 <div className="row mt-4 pb-3 ">
                   <div className="col-md-6">
-                    <div className="form-group">
-                      <label
-                        className="form-control-label"
-                        htmlFor="inputSuccess2"
-                      >
-                        Email
-                      </label>
-                      <input
-                        type="text"
-                        className="form-control text"
-                        name="i2"
-                        required
-                        placeholder="example@bitbook.com"
-                      />
-                      <div className="invalid-feedback">That didn`t work.</div>
-                    </div>
+                    <FormGroup
+                      Label={
+                        <label className="form-control-label">
+                          First Name{" "}
+                          <span style={{ color: "#4B4C4D", fontSize: "13px" }}>
+                            (optional)
+                          </span>{" "}
+                        </label>
+                      }
+                    >
+                      <Input placeholder="First Name" />
+                    </FormGroup>
                   </div>
                   <div className="col-md-6">
-                    <div className="form-group">
-                      <label
-                        className="form-control-label"
-                        htmlFor="inputSuccess2"
-                      >
-                        Email
-                      </label>
-                      <input
-                        type="text"
-                        className="form-control text"
-                        name="i2"
-                        required
-                        placeholder="example@bitbook.com"
-                      />
-                      <div className="invalid-feedback">That didn`t work.</div>
-                    </div>
+                    <FormGroup Label="First Name">
+                      <Input placeholder="Last Name" />
+                    </FormGroup>
                   </div>
-                  <div className="col-12  ">
+                  <div className="col-md-6">
+                    <FormGroup Label="Last Name">
+                      <Input placeholder="example@bitbook.com" />
+                    </FormGroup>
+                  </div>
+                  {/* <div className="col-12  ">
                     <div className="borderBottom"> </div>
-                  </div>
+                  </div> */}
                 </div>
-                <div className="row">
+                {/* <div className="row">
                   <div className="col-12">
                     <h5>Physical Adress</h5>
                   </div>
@@ -445,9 +434,10 @@ const userProfile = () => {
                   <div className="col-12 mb-3 mt-2  ">
                     <div className="borderBottom"> </div>
                   </div>
-                </div>
+                </div> */}
+
                 <div className="row">
-                  <div className="col-12">
+                  {/* <div className="col-12">
                     <h5>Language & Currency</h5>
                   </div>
                   <div className="col-md-6">
@@ -465,9 +455,9 @@ const userProfile = () => {
                       </select>
                       <div className="invalid-feedback">That didn`t work.</div>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="col-12 text-right">
-                    <button className="btn btn-primary">Save Changes</button>
+                    <Button className="btn btn-primary">Save Changess</Button>
                   </div>
                 </div>
               </div>
