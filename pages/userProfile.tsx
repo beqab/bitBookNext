@@ -1,6 +1,15 @@
 import React from "react";
 import LoginHeader from "../components/headers/loginHeader";
 import { FormGroup, Input, Button } from "../components/common/form";
+import styled from "styled-components";
+
+const Label = styled.label`
+  color: red;
+  span {
+    color: #4b4c4d52;
+    fontsize: 13px;
+  }
+`;
 
 const userProfile = () => {
   return (
@@ -302,19 +311,22 @@ const userProfile = () => {
                   <div className="col-md-6">
                     <FormGroup
                       Label={
-                        <label className="form-control-label">
-                          First Name{" "}
-                          <span style={{ color: "#4B4C4D", fontSize: "13px" }}>
-                            (optional)
-                          </span>{" "}
-                        </label>
+                        <Label>
+                          First Name <span>(optional)</span>{" "}
+                        </Label>
                       }
                     >
                       <Input placeholder="First Name" />
                     </FormGroup>
                   </div>
                   <div className="col-md-6">
-                    <FormGroup Label="First Name">
+                    <FormGroup
+                      Label={
+                        <Label>
+                          Last Name <span>(optional)</span>
+                        </Label>
+                      }
+                    >
                       <Input placeholder="Last Name" />
                     </FormGroup>
                   </div>
