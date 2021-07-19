@@ -240,7 +240,7 @@ const Register = () => {
                 </label>
               </div> */}
               <button className="btn btn-primary w-100 mt-3 py-2">
-                Log In
+                Sign In
               </button>
             </div>
           </div>

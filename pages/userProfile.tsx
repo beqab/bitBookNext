@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import LoginHeader from "../components/headers/loginHeader";
 import { FormGroup, Input, Button } from "../components/common/form";
 import styled from "styled-components";
@@ -469,6 +470,9 @@ const userProfile = () => {
                     </div>
                   </div> */}
                   <div className="col-12 text-right">
+                    <Link href="/">
+                      <a className="goBack">Back to Home</a>
+                    </Link>
                     <Button className="btn btn-primary">Save Changess</Button>
                   </div>
                 </div>

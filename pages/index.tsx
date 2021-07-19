@@ -151,7 +151,7 @@ const Home = () => {
             <div className="sum">
               <h4>Market Cap</h4>
               <div>
-                23,433,342,23$
+                23,433,34$
                 <span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -174,7 +174,7 @@ const Home = () => {
             <div className="sum">
               <h4>BitBook Token</h4>
               <div>
-                23,433,342,23$
+                23,433,34$
                 <span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -488,7 +488,7 @@ const Home = () => {
           <h4>Top destinations</h4>
 
           <div className="row">
-            <div className="col-3">
+            <div className="col-3 destination_col topDestinations_menu_col">
               <ul className="topDestinations_menu">
                 <li>
                   <Link href="#">
@@ -532,7 +532,7 @@ const Home = () => {
                 </li>
               </ul>
             </div>
-            <div className="col-6">
+            <div className="col-6 destination_col">
               <div className="topDestinations_item">
                 <img src="./img/Rectangle 26.png" />
                 <div className="blur"></div>
@@ -549,7 +549,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-3">
+            <div className="col-3 destination_col">
               <div className="topDestinations_item">
                 <img src="./img/Rectangle 26.png" />
                 <div className="blur"></div>
@@ -567,8 +567,8 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="row mt-4">
-            <div className="col-3">
+          <div className="row mt-3 ">
+            <div className="col-3 destination_col">
               <div className="topDestinations_item">
                 <img src="./img/Rectangle 26.png" />
                 <div className="blur"></div>
@@ -585,7 +585,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-3">
+            <div className="col-3 destination_col">
               <div className="topDestinations_item">
                 <img src="./img/Rectangle 26.png" />
                 <div className="blur"></div>
@@ -602,7 +602,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-6">
+            <div className="col-6 destination_col">
               <div className="topDestinations_item">
                 <img src="./img/Rectangle 26.png" />
                 <div className="blur"></div>
@@ -631,7 +631,7 @@ const Home = () => {
           </div>
           <div className="subscribe_form d-flex align-items-center">
             <input placeholder="Enter your email" />
-            <Button className="btn btn-primary">Sing Up</Button>
+            <Button className="btn btn-primary">Submit</Button>
           </div>
         </div>
       </div>

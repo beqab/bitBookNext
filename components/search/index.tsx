@@ -159,7 +159,7 @@ const Search = () => {
         <div className="container">
           <input
             className="CtOrAirport"
-            placeholder="Ender a city or Airport"
+            placeholder="Enter a city or Airport"
           />
 
           <input placeholder="Check in - Check out" />

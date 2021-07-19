@@ -24,7 +24,7 @@ $color_darkBlue: #032087;
       width: 100%;
       height: 100%;
       object-fit: cover;
-      height: calc(100vw * 0.56);
+      height: calc(100vw * 0.558);
     }
   }
   &_text {
@@ -59,7 +59,7 @@ $color_darkBlue: #032087;
     display: inline-block;
     margin: auto;
     padding: 16px;
-    border-bottom: 1px solid #707070;
+    border-bottom: 1px solid #70707038;
     position: relative;
     .menuLine {
       position: absolute;
@@ -154,17 +154,28 @@ $color_darkBlue: #032087;
       margin-left: 30px;
       padding-left: 40px;
       padding-right: 40px;
+      width: 135px;
+      height: 52px;
+      font-size: 15px;
+      white-space: nowrap;
+      padding: 0;
     }
     h4 {
       color: $color_darkBlue;
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 10px;
     }
     > div {
-      padding: 0 16px;
+      padding: 0 20px;
       border-right: 1px solid #70707069;
       color: #092e53;
+      font-weight: 400;
       span {
         color: #3acc89;
         font-size: 12px;
+        margin-left: 6px;
+        display: inline-block;
       }
     }
   }
@@ -175,29 +186,44 @@ section.features {
   text-align: center;
   color: $color_darkBlue;
   padding: 50px 0;
+  svg {
+    height: 50px;
+  }
   h4 {
-    margin-top: 20px;
+    margin-top: 18px;
   }
   p {
     font-size: 15px;
+    // font-weight: 00;
   }
+}
+
+.topDestinations_menu_col {
+  display: flex;
+  align-items: center;
+}
+.destination_col {
+  padding-right: 8px;
+  padding-left: 8px;
 }
 
 .topDestinations {
   background: #fafafa;
   padding-top: 50px;
+
   &_menu {
     list-style: none;
     margin-bottom: 0;
     padding-left: 0;
     li {
-      margin-bottom: 6px;
+      margin-bottom: 8px;
     }
     a {
       color: $color_darkBlue;
       font-size: 14px;
       position: relative;
       padding-bottom: 3px;
+      font-weight: 500;
       &::before {
         position: absolute;
         width: 0px;
@@ -333,9 +359,14 @@ section.features {
     list-style: none;
     padding-left: 0;
     margin-bottom: 0;
+    margin-top: 22px;
+    li {
+      margin-bottom: 4px;
+    }
   }
   label {
     font-weight: bold;
+    text-transform: uppercase;
   }
 }
 
@@ -387,6 +418,7 @@ section.features {
     button {
       width: 114px;
       height: 40px;
+      font-size: 14px;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -401,10 +433,11 @@ section.features {
 
   &_form {
     button {
-      width: 170px;
+      width: 190px;
       display: inline-block;
       height: 46px;
       margin-left: 10px;
+      font-size: 15px;
     }
   }
   input {
@@ -439,6 +472,7 @@ section.features {
 
 .btn {
   font-weight: 500;
+  font-size: 15px;
   &-primary {
     background: $color_blue;
   }
@@ -461,6 +495,7 @@ section.features {
     font-size: 24px;
     color: $color_darkBlue;
     margin-bottom: 20px;
+    font-weight: 600;
   }
 }
 .ArticlesSlider_wrapper {
@@ -506,7 +541,7 @@ section.features {
       // border: 2px solid green;
       height: 100%;
       transition: 0.6s;
-      filter: blur(2px);
+      // filter: blur(2px);
 
       h4 {
         color: $color_darkBlue;
@@ -551,7 +586,7 @@ section.features {
   min-height: 80vh;
   .slider-controllers {
     position: absolute;
-    bottom: 160px;
+    bottom: 120px;
     left: calc(50vw + 1000px / 2);
     z-index: 3;
     svg {
@@ -573,6 +608,9 @@ section.features {
   .slider_indicators {
     color: #fff;
     font-size: 36px;
+    .arrows {
+      transform: translateX(-6px);
+    }
   }
   .slider_items {
     position: absolute;
@@ -676,6 +714,7 @@ section.features {
     color: $color_darkBlue;
     font-size: 22px;
     font-weight: 600;
+    margin-bottom: 25px;
   }
   .fbGoole_BtnsGroup {
     button {
@@ -693,8 +732,9 @@ section.features {
 
   .separatorLine {
     width: 100%;
-    height: 2px;
-    background: #bdbdbd;
+    height: 1px;
+    background: #bdbdbd6b;
+
     position: relative;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -775,6 +815,11 @@ section.features {
   background: #fafafa;
   min-height: 100vh;
   padding-bottom: 60px;
+  .goBack {
+    font-size: 15px;
+    margin-right: 40px;
+    font-weight: 500;
+  }
   &_container {
     background: #fff;
     box-shadow: 0px 3px 15px #00000005;
@@ -919,6 +964,17 @@ section.features {
     color: #fff;
     margin-bottom: 20px;
   }
+
+  #Rectangle_357 {
+    transition: 0.3s;
+  }
+  #Component_46_3:hover,
+  #Component_46_2:hover,
+  #Component_46_1:hover {
+    #Rectangle_357 {
+      fill: $color_blue;
+    }
+  }
   a.exchangeLink {
     margin-bottom: 20px;
     display: inline-block;
@@ -926,6 +982,7 @@ section.features {
     display: inline-block;
     &:hover {
       transform: scale(1.1);
+      box-shadow: 0px 3px 32px #0050b7;
     }
   }
 
@@ -1200,7 +1257,8 @@ section.features {
 .svgBGHome {
   #Layer_13 {
     animation-name: example;
-    animation-duration: 3.5s;
+    animation-duration: 3.8s;
+    animation-timing-function: ease-out;
     transform: translate(268px, 81px);
   }
 
@@ -1211,7 +1269,9 @@ section.features {
   #bakbak {
     position: absolute;
     animation-name: rotate2;
-    animation-duration: 3.5s;
+    animation-duration: 3.8s;
+    animation-timing-function: ease-out;
+
     transform: rotate(0deg);
 
     // transform: rotate(0deg);
@@ -1221,8 +1281,10 @@ section.features {
 
   #Layer_10 {
     position: absolute;
+    animation-timing-function: ease-out;
+
     animation-name: mountine;
-    animation-duration: 3.5s;
+    animation-duration: 3.8s;
     // transform: translateY(-60px);
     animation-fill-mode: forwards;
   }
