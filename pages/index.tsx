@@ -764,7 +764,7 @@ const Home = () => {
             </div>
             <div className="col-md-7">
               <div className="row">
-                <div className="col-md-4">
+                <div className="footerMenu_cols">
                   <label>Products</label>
                   <ul className="footer_menu">
                     <li>
@@ -789,7 +789,7 @@ const Home = () => {
                     </li>
                   </ul>
                 </div>
-                <div className="col-md-4">
+                <div className="footerMenu_cols">
                   <label>Customer Service</label>
                   <ul className="footer_menu">
                     <li>
@@ -814,7 +814,7 @@ const Home = () => {
                     </li>
                   </ul>
                 </div>
-                <div className="col-md-4">
+                <div className="footerMenu_cols">
                   <label>Products</label>
                   <ul className="footer_menu">
                     <li>

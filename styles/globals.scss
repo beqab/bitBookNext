@@ -147,6 +147,7 @@ $color_darkBlue: #032087;
     display: flex;
     padding: 15px;
     border-radius: 3px;
+    padding-right: 37px;
     button {
       color: $color_blue;
       border: 2px solid #0068ef;
@@ -191,6 +192,7 @@ section.features {
   }
   h4 {
     margin-top: 18px;
+    font-size: 18px;
   }
   p {
     font-size: 15px;
@@ -339,6 +341,15 @@ section.features {
   background: $color_darkBlue;
   color: #fff;
   padding-top: 140px;
+  .footerMenu_cols {
+    width: 260px;
+    &:first-child {
+      width: 190px;
+    }
+    &:last-child {
+      width: 150px;
+    }
+  }
   a {
     color: #fff;
   }
