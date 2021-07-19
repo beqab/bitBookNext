@@ -1580,3 +1580,15 @@ section.features {
     // translate(629.208 157.848)
   }
 }
+
+//// faq
+
+.faq {
+  &_topSection {
+    padding: 90px 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: radial-gradient(#2446c0, #032087);
+  }
+}
