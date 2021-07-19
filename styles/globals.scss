@@ -597,6 +597,7 @@ section.features {
     }
   }
   .arrows {
+    transform: translateX(-6px);
     span {
       transition: 0.3s;
       display: inline-block;
@@ -608,9 +609,6 @@ section.features {
   .slider_indicators {
     color: #fff;
     font-size: 36px;
-    .arrows {
-      transform: translateX(-6px);
-    }
   }
   .slider_items {
     position: absolute;
