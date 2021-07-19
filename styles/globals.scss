@@ -12,6 +12,16 @@ $color_darkBlue: #032087;
   font-family: $font_m;
 }
 
+input:focus-visible,
+select:focus {
+  border: 1px solid $color_blue;
+}
+input:focus {
+  box-shadow: none !important;
+  outline: none;
+  border: 1px solid $color_blue !important;
+}
+
 .firsSection {
   min-height: 100vh;
   position: relative;
@@ -825,6 +835,122 @@ section.features {
   background: #fafafa;
   min-height: 100vh;
   padding-bottom: 60px;
+
+  .investAndEarn {
+    .tabMenu {
+      display: flex;
+      align-items: center;
+      padding-left: 25px;
+      padding-top: 10px;
+      border-bottom: 1px solid #7070703a;
+      > div {
+        font-size: 13px;
+        font-weight: 500;
+        padding: 4px;
+        cursor: pointer;
+        padding-bottom: 8px;
+        border-bottom: 2px solid transparent;
+        margin-right: 25px;
+
+        &.active {
+          border-bottom: 2px solid $color_blue;
+        }
+      }
+    }
+    .content {
+      padding-top: 25px;
+      padding-left: 25px;
+      min-height: 279px;
+    }
+    .Invited_People {
+      margin-left: -25px;
+      th {
+        color: #4b4c4d75;
+        font-size: 11px;
+        &:first-child {
+          padding-left: 25px;
+        }
+      }
+      td {
+        color: #4b4c4d;
+        font-size: 12px;
+        border-top: 0px;
+        font-weight: 500;
+        &:first-child {
+          padding-left: 25px;
+        }
+        border-bottom: 1px solid #70707057;
+      }
+      thead tr {
+        background: #f2f2f2;
+        th {
+          border: none;
+        }
+        svg {
+          margin-left: 4px;
+        }
+      }
+    }
+    .invest {
+      p {
+        font-size: 14px;
+        font-weight: 500;
+        padding-right: 20px;
+      }
+      &_footer {
+        background-image: linear-gradient(to right, #0068ef, #003478);
+        height: 180px;
+        margin-top: 35px;
+        margin-left: -25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      &_cards {
+        display: flex;
+        margin-top: 30px;
+        &_item {
+          min-width: 240px;
+          text-align: center;
+          background-image: linear-gradient(to right, #eb5757, #2800b1);
+          box-shadow: 1px 3px 11px #00084d17;
+          height: 140px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 9px;
+          p {
+            color: #fff;
+            font-size: 13px;
+            font-weight: 500;
+            padding-right: 0;
+          }
+
+          &-middle {
+            margin-left: 18px;
+            width: 260px;
+            margin-right: 18px;
+            background-image: linear-gradient(to right, #5f48ca, #7b4ed3);
+          }
+          &-last {
+            background-image: linear-gradient(to right, #9100c6, #0061e3);
+            button {
+              background: #3acc89;
+              border: none;
+              border-radius: 3px;
+              color: #fff;
+              padding: 0 18px;
+              font-size: 12px;
+              height: 32px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .form-control {
+    font-size: 14px;
+  }
   .goBack {
     font-size: 15px;
     margin-right: 40px;

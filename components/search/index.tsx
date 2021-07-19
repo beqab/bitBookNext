@@ -97,7 +97,10 @@ const Search = () => {
 
   useEffect(() => {
     // console.log(SearchMenuRef.current.getBoundingClientRect(), "ccc");
+    // if(SearchMenuRef.current &&  SearchMenuRef.current.getBoundingClientRect()){
+
     getMenuLeftPosition(SearchMenuRef.current.getBoundingClientRect().left);
+    // }
     const element = SearchMenuRef.current.getBoundingClientRect();
     window.addEventListener("resize", function () {
       console.log(SearchMenuRef.current.getBoundingClientRect(), "left");
