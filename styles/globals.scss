@@ -1591,4 +1591,50 @@ section.features {
     justify-content: center;
     background-image: radial-gradient(#2446c0, #032087);
   }
+
+  &_content {
+    background: #fafafa;
+    min-height: 80vh;
+  }
+  h4 {
+    font-size: 24px;
+    color: $color_darkBlue;
+    font-weight: 600;
+    margin-top: 45px;
+    margin-bottom: 25px;
+  }
+  .questionContainer {
+    color: $color_darkBlue;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: 1px solid #70707049;
+    margin-bottom: 10px;
+    width: 100%;
+    cursor: pointer;
+    .question {
+      display: flex;
+      width: 100%;
+      white-space: nowrap;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .answer {
+      max-height: 0px;
+      overflow: hidden;
+      transition: 0.5s;
+    }
+
+    &.active {
+      svg {
+        transform: rotate(180deg);
+      }
+      .answer {
+        max-height: 1000px;
+        overflow: hidden;
+        transition: 1s;
+      }
+    }
+  }
 }
